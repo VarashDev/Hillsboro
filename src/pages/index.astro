@@ -1,16 +1,344 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
+import MyH1 from "../components/MyH1.astro";
+import srcImage from "../assets/fishing-near-hillsboro-oregon.webp";
+import { Image } from "astro:assets";
+import Link from "../components/Link.astro";
 ---
+<Layout 
+title="Fishing near Hillsboro, Oregon"
+description="Discover the top places for fishing near Hillsboro, Oregon, in this 2025 guide. Learn about rivers, lakes, gear tips, licenses, and more."
+url="https://hillsboro.oregonfishingforum.com/"
+type="website"
+site_name="Oregon Fishing Forum"
+ogimage={srcImage.src}
+>
+    <center>
+			<MyH1 text="Fishing near Hillsboro, Oregon" />
+			<p class="mb-4">Discover the top places for fishing near Hillsboro, Oregon, in this 2025 guide. Learn about 
+				rivers, lakes, gear tips, licenses, and more.</p>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+			<Image
+				src={srcImage}
+				alt="Fishing near Hillsboro, Oregon"
+				loading={"eager"}
+				fetchpriority={"high"}
+				/>
+				<br>
+			</center>
+
+<h2>
+    <strong>Introduction: Why Hillsboro Is a Great Base for Oregon Anglers</strong>
+</h2>
+<p>
+    Located just west of Portland, <strong>Hillsboro, Oregon</strong> is more than just a tech hub—it’s a gateway to some of the best fishing spots in the Willamette Valley. With urban ponds, clean rivers, and access to major waterways like the Willamette and Columbia Rivers within an hour, Hillsboro is perfect for both casual anglers and die-hard fishermen. Whether you’re after rainbow trout, largemouth bass, or a chance at a seasonal Chinook, the options nearby are endless.
+</p>
+<h2>
+    <strong>Types of Fish You Can Catch Near Hillsboro, Oregon</strong>
+</h2>
+<p>
+    Hillsboro’s proximity to diverse ecosystems offers access to multiple fish species:
+</p>
+<ul>
+    <li>
+        <strong>Rainbow Trout</strong> – Stocked in urban ponds and rivers.
+    </li>
+    <li>
+        <strong>Largemouth &amp; Smallmouth Bass</strong> – Found in rivers, lakes, and sloughs.
+    </li>
+    <li>
+        <strong>Bluegill and Panfish</strong> – Abundant in small ponds.
+    </li>
+    <li>
+        <strong>Channel Catfish</strong> – Common in the Tualatin River.
+    </li>
+    <li>
+        <strong>Salmon &amp; Steelhead</strong> – Seasonal access via nearby Willamette and Columbia tributaries.
+    </li>
+</ul>
+<h2>
+    <strong>Urban and Local Lakes in Hillsboro for Fishing</strong>
+</h2>
+<h3>
+    <strong>Rood Bridge Park Pond</strong>
+</h3>
+<p>
+    A peaceful and scenic park with a small pond stocked with trout. It’s ideal for beginner anglers and families with kids. Try using PowerBait or worms for stocked fish.
+</p>
+<h3>
+    <strong>Bethany Lake</strong>
+</h3>
+<p>
+    Just a short drive north of Hillsboro, this popular pond receives regular trout stockings and supports bass and bluegill populations. It offers ADA-accessible docks and open bank fishing.
+</p>
+<h3>
+    <strong>Commonwealth Lake Park</strong>
+</h3>
+<p>
+    Located in Beaverton, this suburban gem holds bluegill, largemouth bass, and trout. Great for ultralight spin fishing or teaching kids how to fish with a bobber and worm setup.
+</p>
+<h2>
+    <strong>Best Rivers Near Hillsboro for Fishing</strong>
+</h2>
+<h3>
+    <strong>Tualatin River</strong>
+</h3>
+<p>
+    This slow-moving, winding river flows right near Hillsboro. While it’s not known for trout, it’s full of <strong>bass, catfish, crappie</strong>, and the occasional <strong>migrating salmon</strong> during high water years. Great for kayak fishing and backwater sloughs.
+</p>
+<h3>
+    <strong>Willamette River</strong>
+</h3>
+<p>
+    Accessible via nearby cities like <strong>Newberg</strong>, <strong>Wilsonville</strong>, and <strong>St. Paul</strong>, the Willamette offers outstanding fishing for <strong>smallmouth bass</strong>, <strong>spring Chinook salmon</strong>, and <strong>sturgeon</strong>. Use crankbaits or drop-shot rigs near structure.
+</p>
+<h2>
+    <strong>Seasonal Fishing Opportunities Near Hillsboro</strong>
+</h2>
+<figure class="table">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <strong>Season</strong>
+                </th>
+                <th>
+                    <strong>Species</strong>
+                </th>
+                <th>
+                    <strong>Tactics</strong>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <strong>Spring</strong>
+                </td>
+                <td>
+                    Trout, Bass, Spring Chinook
+                </td>
+                <td>
+                    PowerBait, jigs, trolling plugs
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Summer</strong>
+                </td>
+                <td>
+                    Bass, Panfish, Catfish
+                </td>
+                <td>
+                    Topwater, live bait, soft plastics
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Fall</strong>
+                </td>
+                <td>
+                    Salmon, Bass
+                </td>
+                <td>
+                    Spinnerbaits, crankbaits, drift fishing
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Winter</strong>
+                </td>
+                <td>
+                    Trout (stocked ponds)
+                </td>
+                <td>
+                    Still fishing, bait rigs, spoons
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</figure>
+<p>
+    &nbsp;
+</p>
+<h2>
+    <strong>Top Fishing Techniques and Gear for Local Waters</strong>
+</h2>
+<ul>
+    <li>
+        <strong>Bait Fishing</strong>: PowerBait, worms, and nightcrawlers for trout and catfish.
+    </li>
+    <li>
+        <strong>Lures</strong>: Spinners (Rooster Tail), crankbaits, Senko worms for bass.
+    </li>
+    <li>
+        <strong>Fly Fishing</strong>: Effective on smaller streams and stocked trout waters.
+    </li>
+    <li>
+        <strong>Kayak Fishing</strong>: Opens up remote stretches of the Tualatin and sloughs.
+    </li>
+</ul>
+<h2>
+    <strong>Bank Fishing vs Kayak/Boat Fishing</strong>
+</h2>
+<figure class="table">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <strong>Method</strong>
+                </th>
+                <th>
+                    <strong>Advantages</strong>
+                </th>
+                <th>
+                    <strong>Disadvantages</strong>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <strong>Bank Fishing</strong>
+                </td>
+                <td>
+                    Easy, accessible, inexpensive
+                </td>
+                <td>
+                    Limited reach and mobility
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Kayak/Float Tube</strong>
+                </td>
+                <td>
+                    Versatile, quiet, access to structure
+                </td>
+                <td>
+                    Requires equipment and transport
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Boating</strong>
+                </td>
+                <td>
+                    Great for Willamette River fishing
+                </td>
+                <td>
+                    Costs more, needs license/launches
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</figure>
+<p>
+    &nbsp;
+</p>
+<p>
+    Hagg Lake (a little farther out) is also a popular bass and trout fishery with rental boats available.
+</p>
+<h2>
+    <strong>Family-Friendly Fishing Locations and Tips</strong>
+</h2>
+<ul>
+    <li>
+        <strong>Bethany Lake</strong> – Paved paths, docks, picnic areas.
+    </li>
+    <li>
+        <strong>Rood Bridge Park</strong> – Quiet, shaded areas and trails.
+    </li>
+    <li>
+        <strong>Commonwealth Lake</strong> – Shallow edges, playground, bathrooms.
+    </li>
+</ul>
+<p>
+    Use simple rigs like bobber-and-worm to keep kids engaged.
+</p>
+<h2>
+    <strong>Where to Buy Gear: Local Tackle and Outdoor Shops</strong>
+</h2>
+<ul>
+    <li>
+        <strong>Fisherman’s Marine &amp; Outdoor (Oregon City)</strong> – Huge selection and helpful staff.
+    </li>
+    <li>
+        <strong>Bi-Mart (Hillsboro &amp; Forest Grove)</strong> – Licenses and budget gear.
+    </li>
+    <li>
+        <strong>Cabela’s (Tualatin)</strong> – High-end rods, boats, and tackle.
+    </li>
+</ul>
+<h2>
+    <strong>Oregon Fishing License and Regulations Overview</strong>
+</h2>
+<p>
+    To fish legally in Hillsboro:
+</p>
+<ul>
+    <li>
+        <strong>Angling license</strong> required for ages 12+.
+    </li>
+    <li>
+        <strong>Trout harvest tag</strong> usually not needed in stocked ponds.
+    </li>
+    <li>
+        <strong>Combined Angling Tag</strong> required for salmon/steelhead.
+    </li>
+</ul>
+<p>
+    Stay up to date with regulations via the ODFW website.
+</p>
+<h2>
+    <strong>Fishing Events and Community Programs in Hillsboro</strong>
+</h2>
+<ul>
+    <li>
+        <strong>ODFW Free Fishing Weekends</strong> – No license required!
+    </li>
+    <li>
+        <strong>Take a Kid Fishing Events</strong> – Held at Bethany Lake and other locations.
+    </li>
+    <li>
+        <strong>Local Meetup Groups</strong> – Facebook groups and forums often plan outings.
+    </li>
+</ul>
+<p>
+    Check <a target="_blank" rel="noopener noreferrer" href="https://myodfw.com/">myodfw.com</a> for events near you.
+</p>
+<h2>
+    <strong>Frequently Asked Questions About Fishing Near Hillsboro, Oregon</strong>
+</h2>
+<p>
+    <strong>Q1: Where can I fish without a boat in Hillsboro?</strong><br>
+    Rood Bridge Park, Bethany Lake, and Commonwealth Lake all offer great bank fishing.
+</p>
+<p>
+    <strong>Q2: What fish are in the Tualatin River?</strong><br>
+    Bass, catfish, crappie, and seasonal salmon runs during high water years.
+</p>
+<p>
+    <strong>Q3: Is fly fishing good around Hillsboro?</strong><br>
+    Yes—mainly in stocked lakes or small creeks, and for trout at Hagg Lake.
+</p>
+<p>
+    <strong>Q4: Do I need a license to fish in Hillsboro ponds?</strong><br>
+    Yes, unless it’s a free fishing weekend. An Oregon Angling License is required for ages 12+.
+</p>
+<p>
+    <strong>Q5: What’s the best lake for bass fishing near Hillsboro?</strong><br>
+    Bethany Lake and Commonwealth Lake are both great for bank anglers. Hagg Lake is better for boating.
+</p>
+<p>
+    <strong>Q6: Are there fishing groups in Hillsboro?</strong><br>
+    Yes! Search local Facebook groups, ODFW programs, and meetup.com for fishing communities.
+</p>
+<h2>
+    <strong>Conclusion: Cast Your Line into Hillsboro’s Hidden Gems</strong>
+</h2>
+<p>
+    Whether you're tossing a bobber into Bethany Lake or exploring the sloughs of the Tualatin, <strong>fishing near Hillsboro, Oregon</strong> offers a rewarding escape for anglers of all skill levels. With so many accessible spots, year-round opportunities, and community support, Hillsboro is truly a hidden fishing haven in the heart of the Willamette Valley.
+</p>
+
+</Layout>
