@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import srcImage from "../../assets/bass-fishing-near-hillsboro-oregon.webp";
 import { Image } from "astro:assets";
 import MyH1 from "../../components/MyH1.astro";
+import Link from "../../components/Link.astro";
 ---
 <Layout 
 title="Bass Fishing near Hillsboro, Oregon"
@@ -143,6 +144,9 @@ ogimage={srcImage.src}
 <p>
     Just south of Hillsboro, the <strong>Tualatin River and sloughs</strong> provide great <strong>smallmouth bass</strong> fishing. Cast from kayak or shore along riprap, docks, and deeper channels using crankbaits, spinnerbaits, or drop-shot rigs.
 </p>
+
+<p>Read more about <Link href="/bass/best-spots/" text="Best bass fishing spots near Hillsboro, Oregon" /></p>
+
 <h2>
     <strong>Bank vs. Boat: Which is Best?</strong>
 </h2>

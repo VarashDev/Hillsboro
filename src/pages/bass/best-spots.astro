@@ -1,0 +1,179 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import srcImage from "../../assets/best-bass-fishing-spots-hillsboro-oregon.png";
+import { Image } from "astro:assets";
+import MyH1 from "../../components/MyH1.astro";
+import Bests from "../../components/Bests.astro";
+---
+<Layout 
+title="Best bass fishing spots near Hillsboro, Oregon"
+description="Comprehensive guide to the best bass fishing hotspots – with seasonal tips, gear suggestions, and local insights."
+url="https://hillsboro.oregonfishingforum.com/bass/best-spots/"
+type="article"
+site_name="Oregon Fishing Forum"
+ogimage={srcImage.src}
+>
+    <div class="text-center">
+        <MyH1 text="Best bass fishing spots near Hillsboro, Oregon" />
+        <p class="mb-4">Comprehensive guide to the best bass fishing hotspots – with seasonal tips, gear suggestions, and local insights.</p>
+
+        <Image
+            src={srcImage}
+            alt="Best bass fishing spots near Hillsboro, Oregon"
+            loading={"eager"}
+            fetchpriority={"high"}
+            class="rounded-xl shadow mx-auto"
+            />
+            <br>
+    </div>
+
+<h3>
+    1. <strong>Hagg Lake (Henry Hagg Lake)</strong>
+</h3>
+<ul>
+    <li>
+        <strong>Distance:</strong> ~15 miles southwest of Hillsboro
+    </li>
+    <li>
+        <strong>Species:</strong> Largemouth bass, smallmouth bass, crappie, perch, trout
+    </li>
+    <li>
+        <strong>Why It’s Great:</strong>
+        <ul>
+            <li>
+                Premier bass fishery in the Portland metro area
+            </li>
+            <li>
+                Big bass over 5 lbs caught regularly
+            </li>
+            <li>
+                Excellent structure: coves, logs, ledges
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Access:</strong> Shoreline, boat ramps, kayak-friendly
+    </li>
+</ul>
+<h3>
+    2. <strong>Tualatin River (near Hillsboro)</strong>
+</h3>
+<ul>
+    <li>
+        <strong>Distance:</strong> Flows just south of Hillsboro
+    </li>
+    <li>
+        <strong>Species:</strong> Largemouth bass, smallmouth bass, crappie, bluegill
+    </li>
+    <li>
+        <strong>Why It’s Great:</strong>
+        <ul>
+            <li>
+                Urban yet peaceful waterway with good backwater sloughs
+            </li>
+            <li>
+                Best fished from canoe, kayak, or small boat
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Hot Zones:</strong> Rood Bridge Park, Hillsboro’s Dairy Creek confluence, Cook Park (Tigard)
+    </li>
+</ul>
+<h3>
+    3. <strong>Willamette River (Newberg to Wilsonville stretch)</strong>
+</h3>
+<ul>
+    <li>
+        <strong>Distance:</strong> ~25–40 minutes southeast
+    </li>
+    <li>
+        <strong>Species:</strong> Smallmouth bass (abundant), largemouth (occasional)
+    </li>
+    <li>
+        <strong>Why It’s Great:</strong>
+        <ul>
+            <li>
+                Smallmouth hotspot in summer
+            </li>
+            <li>
+                Tons of rocky structure, eddies, and deep runs
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Best Access Points:</strong>
+        <ul>
+            <li>
+                Roger’s Landing (Newberg)
+            </li>
+            <li>
+                Molalla River State Park (near Canby)
+            </li>
+        </ul>
+    </li>
+</ul>
+<h3>
+    4. <strong>St. Louis Ponds</strong>
+</h3>
+<ul>
+    <li>
+        <strong>Distance:</strong> ~40 miles south near Gervais
+    </li>
+    <li>
+        <strong>Species:</strong> Largemouth bass, crappie, bluegill, catfish
+    </li>
+    <li>
+        <strong>Why It’s Great:</strong>
+        <ul>
+            <li>
+                7 interconnected ponds stocked with warmwater species
+            </li>
+            <li>
+                Perfect for beginner bass anglers or quick action
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Note:</strong> Bank fishing only; no boats allowed
+    </li>
+</ul>
+<h3>
+    5. <strong>Scoggins Creek (inflow to Hagg Lake)</strong>
+</h3>
+<ul>
+    <li>
+        <strong>Distance:</strong> Near Hagg Lake
+    </li>
+    <li>
+        <strong>Species:</strong> Largemouth and smallmouth bass
+    </li>
+    <li>
+        <strong>Why It’s Great:</strong>
+        <ul>
+            <li>
+                Cold, clear stream with slower pools and undercut banks
+            </li>
+            <li>
+                Less pressured than the main lake
+            </li>
+        </ul>
+    </li>
+</ul>
+<h2>
+    Best Time for Bass Fishing
+</h2>
+<ul>
+    <li>
+        <strong>May–October</strong>: Topwater and crankbaits work best
+    </li>
+    <li>
+        <strong>Early morning and dusk</strong>: Prime feeding times
+    </li>
+    <li>
+        <strong>Spring spawn (April–June)</strong>: Look for shallow beds near shorelines
+    </li>
+</ul>
+
+<Bests />
+</Layout>

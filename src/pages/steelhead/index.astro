@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import srcImage from "../../assets/steelhead-fishing-near-hillsboro-oregon.webp";
 import { Image } from "astro:assets";
 import MyH1 from "../../components/MyH1.astro";
+import Link from "../../components/Link.astro";
 ---
 <Layout 
 title="Steelhead Fishing near Hillsboro, Oregon"
@@ -68,6 +69,9 @@ ogimage={srcImage.src}
 <p>
     Driven flows off the Gorge create prime holding water for wild and hatchery steelhead. Launch from <strong>Chinook Landing</strong>or fish banks around <strong>Troutdale</strong> and <strong>Rooster Rock State Park</strong>.
 </p>
+
+<p>Read more about <Link href="/steelhead/best-spots/" text="Best steelhead fishing spots near Hillsboro, Oregon" /></p>
+
 <h2>
     Bank Access Points for Hillsboro Anglers
 </h2>
